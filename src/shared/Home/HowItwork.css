@@ -1,0 +1,65 @@
+.how-it-works > div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 30px;
+}
+.how-it-works > div img {
+  width: 100px;
+  height: 100px;
+}
+
+.how-it-works {
+  position: relative;
+  width: 800px;
+  min-height: 200px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-left: 390px;
+  margin-top: -50px;
+  border: 1px solid darkgreen;
+  border-radius: 10px;
+  box-shadow: 0 6px 4px rgba(214, 210, 210, 0.8);
+  perspective: 1000;
+}
+.how-it-works h1 {
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.how-it-works h1:hover {
+  color: darkgreen;
+  cursor: pointer;
+}
+
+.how-it-works {
+  position: relative;
+  display: inline-block;
+}
+
+.how-it-works section img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -530px;
+  top: 10px;
+}
+.how-it-works section h5 {
+  position: absolute;
+  font-size: 30px;
+  top: 90px;
+  left: -20px;
+}
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 900;
+}
+
+.how-it-works > div img {
+  margin-top: -10px;
+}
+.how-it-works > div img:hover {
+  cursor: pointer;
+}

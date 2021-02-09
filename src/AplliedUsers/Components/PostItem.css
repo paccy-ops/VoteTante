@@ -1,0 +1,76 @@
+.Accepted-application {
+  background-color: #403d56;
+  margin: 20px 0;
+  width: 300px;
+  height: auto;
+  color: #fff;
+}
+
+.Accepted-application:hover {
+  background-color: rgba(1, 47, 19, 0.7);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.Accepted-application a :hover {
+  color: #fff;
+}
+.Accepted-application h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.Accepted-application a img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 100%;
+}
+.Accepted-application a {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+}
+.Accepted-application a p {
+  width: 300px;
+  text-align: left;
+  margin-left: 60px;
+  padding: 10px;
+  font-size: 18px;
+}
+.Accepted-application h4 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 900;
+  display: block;
+}
+.Accepted-application h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.Accepted-application h6 span {
+  margin-left: 10px;
+  color: #fcc102;
+}
+.Accepted-application button {
+  padding: 10px 20px;
+  margin: 30px;
+  font-size: 20px;
+  text-align: center;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: 1px solid #444;
+}
+.Accepted-application button:hover {
+  color: darkgreen;
+  background-color: #fff;
+  transition: 0.3s;
+  font-weight: 900;
+}

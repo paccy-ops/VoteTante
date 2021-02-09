@@ -1,0 +1,79 @@
+/* who should use vote tante */
+
+.howtoVoters {
+  min-height: 250px;
+}
+.howtoVoters section {
+  /* margin: 20px auto; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.cover {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  right: 20px;
+  top: 130px;
+}
+
+.howtoVoters section h3 {
+  font-size: 30px;
+  padding: 20px;
+  margin-left: 260px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 25%;
+}
+
+.pad-imagehomeVoters {
+  display: inline-block;
+  background-color: darkgreen;
+  color: #444;
+  width: 50%;
+}
+.pad-imagehomeVoters p {
+  position: absolute;
+  width: 300px;
+  top: 330px;
+  left: 370px;
+  font-size: large;
+  color: #fff;
+}
+.pad-imagehomeVoters:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.pad-imagehomeVoters p button {
+  margin-left: 50px;
+  padding: 20px 40px;
+  background-color: #444;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 60px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.pad-imagehomeVoters img {
+  border-bottom: 30px solid #ccc;
+  margin-left: -20px;
+  margin-top: 60px;
+  width: 400px;
+  height: 400px;
+  border-bottom-right-radius: 80px;
+  transition: 0.5s;
+}
+
+.pad-imagehomeVoters p button:hover {
+  background-color: #ffff;
+  color: #3f3d56;
+  font-weight: 900;
+  transition: 0.5s;
+  border: 1px solid #444;
+}

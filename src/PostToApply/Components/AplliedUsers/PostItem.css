@@ -1,0 +1,72 @@
+.posts {
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 40px;
+}
+
+.posts:hover {
+  background-color: #444;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.posts a :hover {
+  color: #fff;
+}
+.posts h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.posts a img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 100%;
+}
+.posts a {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+}
+.posts a p {
+  width: 300px;
+  text-align: left;
+  margin-left: 60px;
+  padding: 10px;
+  font-size: 18px;
+}
+.posts h4 {
+  font-size: 25px;
+  color: darkgreen;
+  font-weight: 900;
+}
+.posts h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.posts h6 span {
+  margin-left: 10px;
+  color: #fcc102;
+}
+.posts button {
+  padding: 10px 20px;
+  margin: 30px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #444;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: 1px solid #444;
+}
+.posts button:hover {
+  color: #3f3d56;
+  background-color: #fff;
+  transition: 0.3s;
+  font-weight: 900;
+}

@@ -1,0 +1,39 @@
+.report-par-post {
+  width: 450px;
+  /* height: 300px; */
+  display: flex;
+  background-color: #444;
+  position: absolute;
+  /* padding: 30px; */
+  top: 90px;
+  left: 63%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 0 1px 4px black;
+  border-radius: 10px;
+}
+.report-par-post:hover {
+  padding: 2px;
+  cursor: move;
+}
+.report-par-post button {
+  padding: 10px;
+  width: 40%;
+  margin: 0 auto 10px;
+  background-color: darkgreen;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.report-par-post button h6 {
+  font-size: 14px;
+  font-style: initial;
+  font-weight: 900;
+}
+.report-par-post button:hover {
+  background-color: #fff;
+  color: darkgreen;
+  cursor: pointer;
+}

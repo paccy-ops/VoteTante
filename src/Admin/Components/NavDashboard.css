@@ -1,0 +1,75 @@
+.admin-dashbord {
+  background-color: #fff;
+  width: 350px;
+  height: auto;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.admin-dashbord ul {
+  margin: 20px;
+}
+
+.admin-dashbord img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.admin-dashbord img:hover {
+  cursor: pointer;
+}
+
+.admin-dashbord h4 {
+  position: absolute;
+  margin: 20px;
+  margin-left: 150px;
+}
+.admin-dashbord h4 strong {
+  font-size: 15px;
+  color: #fcc102;
+  padding: 3px;
+}
+.admin-dashbord h4 span {
+  font-size: 15px;
+  font-weight: 900;
+  color: #053e74;
+}
+.active-link {
+  color: #fff;
+  background-color: #053e74;
+}
+.admin-dashbord ul li {
+  background-color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  margin: 20px 10px;
+  padding: 6px;
+  border-bottom: 4px solid rgb(161, 128, 128, 0.6);
+  border-bottom-left-radius: 60px;
+  text-align: center;
+}
+.admin-dashbord ul li:hover {
+  background-color: #625b9c;
+  transition: 1s;
+  color: rgb(19, 226, 140);
+  cursor: pointer;
+}
+.admin-dashbord ul li a {
+  font-size: 18px;
+  color: rgb(19, 226, 140);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+.admin-dashbord ul li a:hover {
+  color: rgb(19, 226, 140);
+  cursor: pointer;
+}
+.admin-dashbord h4 {
+  font-size: 23px;
+}
+
+.admin-dashbord ul li a:active {
+  background-color: #444;
+  color: rgb(19, 226, 140);
+}

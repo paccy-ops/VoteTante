@@ -1,0 +1,119 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background: url(https://1.bp.blogspot.com/-iybMuwX0zCE/YABSszfWLHI/AAAAAAAAQAE/75nqtorcl_sKVqOZoXvOrlG6w8kESXvKQCLcBGAsYHQ/s1920/pic1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 87.5vh;
+  font-family: sans-serif;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: absolute;
+  top: 185px;
+  margin-left: -65px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox {
+  width: 25%;
+  padding: 80px 30px;
+  /* height: 100%; */
+  margin-left: 30%;
+  margin-top: 10%;
+  background-color: #444;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Roboto';
+  margin-left: 35%;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type='text'],
+input[type='password'] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type='submit'] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: darkgreen;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.loginbox input[type='submit']:hover {
+  cursor: pointer;
+  background: #fff;
+  color: darkgreen;
+}
+.loginbox a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: aqua;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.loginbox a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .loginbox a {
+    color: aqua;
+    font-size: 15px;
+  }
+  .loginbox {
+    width: 70%;
+    margin: 10px auto;
+  }
+  .avatar {
+    display: none;
+  }
+  .loginbox input[type='submit'] {
+    font-size: 19px;
+  }
+  .loginbox input[type='text'],
+  input[type='password'] {
+    font-size: 14px;
+  }
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 17px;
+  }
+  .loginbox p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}

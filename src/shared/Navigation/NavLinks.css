@@ -1,0 +1,94 @@
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+
+  background-color: none;
+}
+.image-profile {
+  width: 40px;
+  height: 40px;
+}
+.nav-links li {
+  margin: 1rem;
+}
+
+.color-active {
+  border: 1px solid transparent;
+  color: #292929;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 3px;
+}
+
+.color-active:hover,
+.color-active:active,
+.color-active.active {
+  background-color: #444;
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 00.6);
+  border-radius: 4px;
+}
+
+.nav-links button {
+  cursor: pointer;
+  border: 1px solid #292929;
+  color: #292929;
+  background: transparent;
+  padding: 0.5rem;
+  font: inherit;
+}
+
+.nav-links button:focus {
+  outline: none;
+}
+
+.nav-links button:hover,
+.nav-links button:active {
+  background: darkgreen;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+  }
+
+  .nav-links li {
+    margin: 0 0.5rem;
+  }
+
+  .nav-links a {
+    color: darkgreen;
+    text-decoration: none;
+  }
+
+  .nav-links button {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+  }
+
+  .nav-links button:hover,
+  .nav-links button:active {
+    background: darkgreen;
+    color: #fff;
+  }
+  .nav-links img {
+    visibility: visible;
+  }
+}
