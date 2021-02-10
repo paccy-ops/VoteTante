@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
-import Avatar from '../../images/tante-01.svg';
+// import Avatar from '../../images/tante-01.svg';
 import './Login.css';
 const Login = () => {
   return (
     <div className='body'>
-      <img src={Avatar} alt='' className='avatar' />
       <div className='loginbox'>
         <h1>Login Here</h1>
         <form>

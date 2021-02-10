@@ -1,7 +1,10 @@
 .posts {
   background-color: #fff;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: 40px;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
 }
 
 .posts:hover {
@@ -15,13 +18,13 @@
 }
 .posts h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 10px;
 }
 
 .posts a img {
-  width: 100px;
-  height: 100px;
-  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
   border-radius: 100%;
 }
 .posts a {
@@ -29,22 +32,22 @@
   text-align: center;
   text-decoration: none;
   color: #444;
-  font-size: 16px;
+  font-size: 10px;
 }
 .posts a p {
-  width: 300px;
+  width: 200px;
   text-align: left;
   margin-left: 60px;
   padding: 10px;
-  font-size: 18px;
+  font-size: 10px;
 }
 .posts h4 {
-  font-size: 25px;
+  font-size: 10px;
   color: darkgreen;
   font-weight: 900;
 }
 .posts h6 {
-  font-size: 20px;
+  font-size: 10px;
   margin-bottom: 10px;
 }
 .posts h6 span {
@@ -53,8 +56,8 @@
 }
 .posts button {
   padding: 10px 20px;
-  margin: 30px;
-  font-size: 20px;
+  margin: 10px;
+  font-size: 10px;
   text-align: center;
   background-color: #444;
   border: none;

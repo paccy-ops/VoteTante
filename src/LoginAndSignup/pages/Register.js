@@ -9,7 +9,7 @@ const Login = () => {
         backgroundImage: `url(${back})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-        height: '100vh',
+        height: '80vh',
       }}>
       <div className='container'>
         <form id='form' className='form'>

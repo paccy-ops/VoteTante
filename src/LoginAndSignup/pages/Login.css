@@ -7,28 +7,19 @@
   height: 87.5vh;
   font-family: sans-serif;
 }
-.avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  position: absolute;
-  top: 185px;
-  margin-left: -65px;
-  left: calc(50% - 50px);
-}
 
 h1 {
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
-  font-size: 22px;
+  font-size: 17px;
 }
 .loginbox {
   width: 25%;
-  padding: 80px 30px;
+  padding: 60px 20px;
   /* height: 100%; */
   margin-left: 30%;
-  margin-top: 10%;
+  margin-top: 5%;
   background-color: #444;
   color: #fff;
   font-size: 20px;
@@ -73,7 +64,7 @@ input[type='password'] {
 }
 .loginbox a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
   font-family: 'Roboto';
   font-weight: 900;

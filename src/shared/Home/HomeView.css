@@ -1,132 +1,58 @@
 /* who should use vote tante */
 
-.howtohome {
-  min-height: 250px;
-}
-.howtohome section {
-  /* margin: 20px auto; */
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-}
-.cover {
-  position: absolute;
-  width: 700px;
-  height: 700px;
-  right: -20px;
-  top: 130px;
-}
-
-.howtohome section h3 {
-  font-size: 30px;
-  padding: 20px;
-  margin-left: 260px;
-  cursor: pointer;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  width: 25%;
-}
-
-.pad-imagehome {
-  display: inline-block;
+.lelf-cover {
   background-color: darkgreen;
-  color: #444;
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+  height: auto !important;
+  padding: 20px;
 }
-.pad-imagehome p {
-  position: absolute;
+.lelf-cover p {
+  width: 400px !important;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.lelf-cover p strong {
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 900 !important;
+}
+.lelf-cover img {
   width: 300px;
-  top: 330px;
-  left: 370px;
-  font-size: large;
-  color: #fff;
+  height: 300px;
 }
-.pad-imagehome:hover {
-  color: #fff;
-  cursor: pointer;
-  transition: 0.7s;
-}
-.pad-imagehome p button {
-  margin-left: 50px;
-  padding: 20px 40px;
-  background-color: #444;
+.register {
+  margin-left: 50px !important;
+  padding: 5px 40px !important;
+  background-color: #444 !important;
   border: none;
-  color: white;
-  font-weight: bold;
-  border-radius: 60px;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 60px !important;
   outline: none;
-  cursor: pointer;
-  font-size: 20px;
-  margin-top: 20px;
-}
-.pad-imagehome img {
-  /* border-bottom: 30px solid #ccc; */
-  margin-left: -20px;
-  margin-top: 60px;
-  width: 400px;
-  height: 400px;
-  border-bottom-right-radius: 80px;
+  cursor: pointer !important;
+  font-size: 20px !important;
+  margin-top: 20px !important;
 }
 
-.pad-imagehome p button:hover {
-  background-color: #ffff;
-  color: #3f3d56;
-  font-weight: 900;
-  transition: 0.5s;
-  border: 1px solid #444;
+.register:hover {
+  background-color: #ffff !important;
+  color: #3f3d56 !important;
+  font-weight: 900 !important;
+  transition: 0.5s !important;
+  border-bottom: none !important;
 }
+
 @media (max-width: 768px) {
-  .cover {
+  .register {
+    font-size: 15px !important;
+  }
+  .lelf-cover img {
     display: none;
   }
-
-  .howtohome section h3 {
-    font-size: 16px;
-    padding: 0 13px;
-    margin-left: 16%;
-    width: 35%;
-  }
-  .pad-imagehome img {
-    margin-left: -20px;
-    margin-top: 60px;
-    width: 200px;
-    height: 200px;
-    border-bottom-right-radius: 80px;
-  }
-
-  .pad-imagehome p {
-    position: absolute;
-    width: 200px;
-    top: 200px;
-    left: 200px;
-    font-size: 10px;
-
-    color: #fff;
-  }
-
-  .pad-imagehome {
-    display: inline-block;
-    background-color: darkgreen;
-    color: #444;
-    width: 80%;
-  }
-
-  .pad-imagehome p button {
-    margin-left: 50px;
-    padding: 10px;
-    background-color: #444;
-    border: none;
-    color: white;
-    font-weight: bold;
-    border-radius: 60px;
-    outline: none;
-    cursor: pointer;
-    font-size: 20px;
-    margin-top: 20px;
-  }
-
-  .howtohome {
-    height: 80vh;
+  .right-cover {
+    margin-left: 30px !important;
   }
 }

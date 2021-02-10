@@ -1,6 +1,6 @@
 .inspiration {
   background-color: #454a4e;
-  min-width: 500px;
+  width: 100%;
   height: 400px;
   margin: 0 0 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -8,7 +8,7 @@
 .inspiration p {
   font-size: 40px;
   width: 600px;
-  margin-left: 380px;
+  margin-left: 80px;
   padding: 20px;
   text-align: center;
   color: #fff;
@@ -17,7 +17,7 @@
 .inspiration p strong {
   color: #fcc102;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 20px;
 }
 .inspiration p span {
   position: absolute;
@@ -27,4 +27,10 @@
   font-size: 60px;
   font-weight: bold;
   border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .inspiration {
+    display: none;
+  }
 }

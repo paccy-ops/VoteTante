@@ -1,5 +1,5 @@
 .report-par-post {
-  width: 450px;
+  width: 350px;
   /* height: 300px; */
   display: flex;
   background-color: #444;
@@ -19,7 +19,7 @@
 }
 .report-par-post button {
   padding: 10px;
-  width: 40%;
+  width: 70%;
   margin: 0 auto 10px;
   background-color: darkgreen;
   border: none;
@@ -36,4 +36,24 @@
   background-color: #fff;
   color: darkgreen;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .report-par-post {
+    display: flex;
+    position: absolute;
+    left: 28%;
+    top: 40%;
+    margin-left: -100px;
+  }
+
+  .report-par-post button {
+    padding: 5px;
+    margin: 0 auto 10px;
+    font-size: 12px;
+  }
+
+  .report-par-post button {
+    padding: 5px;
+    width: 70%;
+  }
 }

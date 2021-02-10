@@ -1,17 +1,17 @@
 .admin-dashbord {
   background-color: #fff;
-  width: 350px;
+  width: 300px;
   height: auto;
   margin: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 .admin-dashbord ul {
-  margin: 20px;
+  margin: 10px;
 }
 
 .admin-dashbord img {
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   margin-left: 35px;
   margin-top: 10px;
@@ -23,10 +23,10 @@
 .admin-dashbord h4 {
   position: absolute;
   margin: 20px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .admin-dashbord h4 strong {
-  font-size: 15px;
+  font-size: 10px;
   color: #fcc102;
   padding: 3px;
 }
@@ -42,7 +42,7 @@
 .admin-dashbord ul li {
   background-color: #444;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-  margin: 20px 10px;
+  margin: 10px 50px;
   padding: 6px;
   border-bottom: 4px solid rgb(161, 128, 128, 0.6);
   border-bottom-left-radius: 60px;
@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 .admin-dashbord ul li a {
-  font-size: 18px;
+  font-size: 10px;
   color: rgb(19, 226, 140);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -66,10 +66,16 @@
   cursor: pointer;
 }
 .admin-dashbord h4 {
-  font-size: 23px;
+  font-size: 16px;
 }
 
 .admin-dashbord ul li a:active {
   background-color: #444;
   color: rgb(19, 226, 140);
+}
+
+@media (max-width: 768px) {
+  .admin-dashbord {
+    display: none;
+  }
 }
