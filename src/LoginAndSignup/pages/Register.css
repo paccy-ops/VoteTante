@@ -9,6 +9,7 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
   width: 40%;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 .container:hover {
   cursor: pointer;
