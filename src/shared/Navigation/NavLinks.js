@@ -24,12 +24,12 @@ const NavLinks = () => {
       </li>
       <li>
         <NavLink to='/candidates' className='color-active'>
-          For Candidates
+          Candidates
         </NavLink>
       </li>
       <li>
         <NavLink to='/cast' className='color-active'>
-          For Voters
+          Voters
         </NavLink>
       </li>
 

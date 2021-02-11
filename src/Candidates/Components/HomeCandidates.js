@@ -55,7 +55,7 @@ const HomeView = () => {
           </Typography>
         </Paper>
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid className='right-cover' item xs={12} sm={6}>
         <Paper
           style={{
             height: 'autho',

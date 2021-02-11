@@ -1,16 +1,10 @@
 // import { Link } from 'react-router-dom';
-import back from '../../images/gunnar.jpg';
+// import back from '../../images/gunnar.jpg';
 import { Link } from 'react-router-dom';
 import './Register.css';
 const Login = () => {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${back})`,
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        height: '80vh',
-      }}>
+    <div>
       <div className='container'>
         <form id='form' className='form'>
           <h2>

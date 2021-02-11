@@ -74,3 +74,15 @@
   transition: 0.5s;
   border: 1px solid #444;
 }
+
+@media (max-width: 768px) {
+  .register {
+    font-size: 15px !important;
+  }
+  .lelf-cover img {
+    display: none;
+  }
+  .right-cover {
+    margin-left: 30px !important;
+  }
+}

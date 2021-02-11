@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import profile from '../../images/profile.svg';
 import './MainNavigation.css';
 import MainHeader from './MainHeader';
 import SideDrawer from './SideDrawer';
@@ -34,7 +35,10 @@ const MainNavigation = () => {
           <span />{' '}
         </button>
         <h1 className='main-navigation__title'>
-          <Link to='/'>Your Name</Link>
+          <Link to='/'>
+            Your Name{' '}
+            <img className='image-profile' src={profile} alt='profile' />
+          </Link>
         </h1>
         <nav className='main-navigation__header-nav'>
           <NavLink />

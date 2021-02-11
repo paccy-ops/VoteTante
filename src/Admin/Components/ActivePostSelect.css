@@ -55,5 +55,7 @@
   .ditails {
     width: 90%;
     font-size: 13px;
+    display: flex;
+    justify-content: center;
   }
 }

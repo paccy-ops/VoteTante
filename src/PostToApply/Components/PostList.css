@@ -1,6 +1,6 @@
 .posts-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 h1 {

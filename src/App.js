@@ -12,7 +12,7 @@ import AplliedUsers from './AplliedUsers/pages/AppliedUsers';
 import HomeView from './shared/Home/HomeView';
 import HomeCandidates from './Candidates/Components/HomeCandidates';
 import Voter from './Voters/Components/Voters';
-// import HowItwork from './shared/Home/HowItwork';
+import HowItwork from './shared/Home/HowItwork';
 import Insipiration from './shared/Home/Insipiration';
 import Team from './shared/Home/Team';
 import Voters from './Voters/pages/Voters';
@@ -52,6 +52,7 @@ function App() {
           <Switch>
             <Route path='/' exact>
               <HomeView />
+              <HowItwork />
               <Post />
               <Insipiration />
               <Team />
@@ -59,7 +60,6 @@ function App() {
             </Route>
             <Route path='/admin' exact>
               <Admin />
-              <Footer />
             </Route>
             <Route path='/candidates' exact>
               <HomeCandidates />
