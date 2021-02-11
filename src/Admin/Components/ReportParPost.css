@@ -41,8 +41,6 @@
   .report-par-post {
     display: flex;
     position: absolute;
-    justify-content: center;
-    justify-content: space-around;
     left: 28%;
     top: 40%;
     margin-left: -100px;
