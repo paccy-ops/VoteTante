@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VoteTante/static/css/main.721a55b3.chunk.css",
+    "main.css": "/VoteTante/static/css/main.2425fd75.chunk.css",
     "main.js": "/VoteTante/static/js/main.ab5fd7a7.chunk.js",
     "main.js.map": "/VoteTante/static/js/main.ab5fd7a7.chunk.js.map",
     "runtime-main.js": "/VoteTante/static/js/runtime-main.a5a42556.js",
@@ -8,7 +8,7 @@
     "static/js/2.d6f3fd8e.chunk.js": "/VoteTante/static/js/2.d6f3fd8e.chunk.js",
     "static/js/2.d6f3fd8e.chunk.js.map": "/VoteTante/static/js/2.d6f3fd8e.chunk.js.map",
     "index.html": "/VoteTante/index.html",
-    "static/css/main.721a55b3.chunk.css.map": "/VoteTante/static/css/main.721a55b3.chunk.css.map",
+    "static/css/main.2425fd75.chunk.css.map": "/VoteTante/static/css/main.2425fd75.chunk.css.map",
     "static/js/2.d6f3fd8e.chunk.js.LICENSE.txt": "/VoteTante/static/js/2.d6f3fd8e.chunk.js.LICENSE.txt",
     "static/media/Resume.3aa3403e.svg": "/VoteTante/static/media/Resume.3aa3403e.svg",
     "static/media/account.acfed065.svg": "/VoteTante/static/media/account.acfed065.svg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.a5a42556.js",
     "static/js/2.d6f3fd8e.chunk.js",
-    "static/css/main.721a55b3.chunk.css",
+    "static/css/main.2425fd75.chunk.css",
     "static/js/main.ab5fd7a7.chunk.js"
   ]
 }
