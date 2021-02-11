@@ -7,6 +7,12 @@
 
 @media (max-width: 768px) {
   .admin {
-    height: 900px;
+    min-height: 940px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .admin {
+    min-height: 1000px;
   }
 }

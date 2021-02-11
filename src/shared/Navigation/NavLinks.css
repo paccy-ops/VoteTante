@@ -93,3 +93,15 @@
     visibility: visible;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav-links img {
+    visibility: hidden;
+  }
+
+  .nav-links a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 10px;
+  }
+}

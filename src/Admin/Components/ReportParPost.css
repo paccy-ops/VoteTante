@@ -1,15 +1,11 @@
 .report-par-post {
   width: 350px;
-  /* height: 300px; */
   display: flex;
   background-color: #444;
   position: absolute;
-  /* padding: 30px; */
+  flex-wrap: wrap;
   top: 90px;
   left: 63%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   box-shadow: 0 1px 4px black;
   border-radius: 10px;
 }
@@ -41,7 +37,7 @@
   .report-par-post {
     display: flex;
     position: absolute;
-    left: 28%;
+    left: 29%;
     top: 40%;
     margin-left: -100px;
   }
@@ -55,5 +51,49 @@
   .report-par-post button {
     padding: 5px;
     width: 70%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .report-par-post {
+    display: flex;
+    position: absolute;
+    left: 55.5%;
+    top: 44%;
+    width: 50%;
+    margin-left: -100px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 738px) {
+  .report-par-post {
+    top: 43%;
+    left: 31%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .report-par-post {
+    top: 35%;
+    left: 31%;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .report-par-post {
+    top: 39%;
+    left: 31%;
+  }
+}
+@media only screen and (min-width: 411px) and (max-width: 823px) {
+  .report-par-post {
+    top: 40%;
+    left: 31%;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 1024px) {
+  .report-par-post {
+    top: 40%;
+    left: 38%;
   }
 }

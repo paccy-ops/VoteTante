@@ -68,13 +68,13 @@ const Report = () => {
           },
           legend: {
             labels: {
-              fontSize: 20,
+              fontSize: 16,
             },
           },
           title: {
             display: true,
             text: 'Voting Report ',
-            fontSize: 20,
+            fontSize: 16,
           },
         }}
       />
