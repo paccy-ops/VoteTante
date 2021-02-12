@@ -1,0 +1,22 @@
+.cast-vote select {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+}
+.cast-vote li {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  width: 60%;
+  margin-left: 25%;
+}
+@media (max-width: 768px) {
+  .cast-vote li {
+    width: 100%;
+  }
+  .cast-vote li {
+    margin-left: 0%;
+  }
+}

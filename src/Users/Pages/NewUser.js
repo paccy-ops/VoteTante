@@ -1,8 +1,7 @@
-// import { Link } from 'react-router-dom';
-// import back from '../../images/gunnar.jpg';
+import React from 'react';
+import './NewUser.css';
 import { Link } from 'react-router-dom';
-import './Register.css';
-const Login = () => {
+const NewUser = () => {
   return (
     <div>
       <div className='container'>
@@ -76,4 +75,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default NewUser;

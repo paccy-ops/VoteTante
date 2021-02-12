@@ -23,7 +23,7 @@ const HowItwork = () => {
             {' '}
             <img src={Resume} alt='' />
           </Link>
-          <Link to='/candidates'>
+          <Link to='/apply'>
             {' '}
             <h5>Apply for a Job</h5>{' '}
           </Link>
@@ -33,7 +33,7 @@ const HowItwork = () => {
             {' '}
             <img src={voting} alt='' />
           </Link>
-          <Link to='/cast'>
+          <Link to='/vote'>
             {' '}
             <h5>Cast your vote</h5>
           </Link>

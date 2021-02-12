@@ -22,6 +22,7 @@
 .image-profile {
   width: 40px;
   height: 40px;
+  border-radius: 100%;
 }
 .nav-links li {
   margin: 1rem;
@@ -91,6 +92,7 @@
   }
   .nav-links img {
     visibility: visible;
+    border-radius: 100%;
   }
 }
 

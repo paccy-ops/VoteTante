@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import profile from '../../images/profile.svg';
+import profile from '../../images/paco.jpg';
 import './MainNavigation.css';
 import MainHeader from './MainHeader';
 import SideDrawer from './SideDrawer';
@@ -36,7 +36,7 @@ const MainNavigation = () => {
         </button>
         <h1 className='main-navigation__title'>
           <Link to='/'>
-            Your Name{' '}
+            Pacifique{' '}
             <img className='image-profile' src={profile} alt='profile' />
           </Link>
         </h1>

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import profile from '../../images/profile.svg';
 import './NavDashboard.css';
 const NavDashboard = () => {
@@ -15,28 +15,28 @@ const NavDashboard = () => {
       <img src={profile} alt='' />
       <ul>
         <li className='active-link'>
-          <Link to='#'>Dashboard</Link>
+          <NavLink to='#'>Dashboard</NavLink>
         </li>
         <li>
-          <Link to='#'>Approve User</Link>
+          <NavLink to='/users'>Approve User</NavLink>
         </li>
         <li>
-          <Link to='#'>Approve Candidates</Link>
+          <NavLink to='/all/candidates'>Approve Candidates</NavLink>
         </li>
         <li>
-          <Link to='#'>Create Post </Link>
+          <NavLink to='#'>Create Post </NavLink>
         </li>
         <li>
-          <Link to='#'>Post Details</Link>
+          <NavLink to='#'>Post Details</NavLink>
         </li>
         <li>
-          <Link to='#'>Publish Results</Link>
+          <NavLink to='#'>Publish Results</NavLink>
         </li>
         <li>
-          <Link to='#'>Report</Link>
+          <NavLink to='#'>Report</NavLink>
         </li>
         <li>
-          <Link to='#'>All Users</Link>
+          <NavLink to='#'>All Users</NavLink>
         </li>
       </ul>
     </div>

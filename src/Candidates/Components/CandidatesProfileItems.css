@@ -1,0 +1,66 @@
+.profile-details {
+  position: relative;
+  height: 100%;
+  /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); */
+}
+.profile-details img {
+  width: 400px;
+  height: 430px;
+  margin-top: 10px;
+}
+
+.address-names {
+  position: absolute;
+  top: 2%;
+  left: 45%;
+  background-color: #f4f4f4;
+  margin: 0 2px;
+  padding: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+.address-names button {
+  font-weight: bold !important;
+  margin-top: 30px !important;
+}
+.address-names p {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+
+.address-names h3 {
+  margin: 10px 0;
+  font-size: 13px;
+}
+.address-names h4 {
+  margin: 10px 0;
+  font-size: 13px;
+}
+.address-names h5 {
+  margin: 10px 0;
+  font-size: 13px;
+}
+.address-names h6 {
+  margin: 15px 0;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .address-names {
+    top: 60%;
+    left: -0.5%;
+    padding: 14px;
+    width: 100%;
+    /* margin-left: 13px; */
+  }
+  .candidate-profile_button {
+    position: absolute;
+    margin-top: 20%;
+    width: 40% !important;
+    top: 60% !important;
+  }
+}

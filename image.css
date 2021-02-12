@@ -1,0 +1,25 @@
+.profilo {
+  background-color: red;
+  position: relative;
+}
+
+.profilo img {
+  width: 400px;
+  height: 400px;
+}
+.profilo h1 {
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.profilo h2 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+.profilo h3 {
+  position: absolute;
+  top: 16%;
+  left: 40%;
+}

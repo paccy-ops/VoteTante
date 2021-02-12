@@ -8,16 +8,21 @@ import Admin from './Admin/pages/Admin';
 import MainNavigation from './shared/Navigation/MainNavigation';
 import Footer from './shared/Footer/Footer';
 import Post from './PostToApply/pages/Post';
-import AplliedUsers from './AplliedUsers/pages/AppliedUsers';
+import User from './Users/Pages/User';
+import UserProfile from './Users/Pages/UserProfile';
+import CandidatesProfile from './Candidates/pages/CandidatesProfile';
+import Candidates from './Candidates/pages/Candidates';
+import NewCandidates from './Candidates/pages/NewCandidates';
 import HomeView from './shared/Home/HomeView';
-import HomeCandidates from './Candidates/Components/HomeCandidates';
-import Voter from './Voters/Components/Voters';
+import HomeCandidates from './Candidates/pages/HomeCandidates';
+import Voter from './Voters/pages/Voters';
 import HowItwork from './shared/Home/HowItwork';
 import Insipiration from './shared/Home/Insipiration';
 import Team from './shared/Home/Team';
-import Voters from './Voters/pages/Voters';
-import Register from './LoginAndSignup/pages/Register';
-import Login from './LoginAndSignup/pages/Login';
+// import Voters from './Voters/pages/Voters';
+import AvailablePost from './Voters/pages/AvailablePost';
+import NewUser from './Users/Pages/NewUser';
+import LoginUser from './Users/Pages/LoginUser';
 
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { green, yellow } from '@material-ui/core/colors';
@@ -36,10 +41,10 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: green[500],
+      main: yellow[500],
     },
     secondary: {
-      main: yellow[500],
+      main: green[500],
     },
   },
 });
@@ -63,23 +68,40 @@ function App() {
             </Route>
             <Route path='/candidates' exact>
               <HomeCandidates />
-              <AplliedUsers />
+              <Candidates />
               <Post />
               <Footer />
             </Route>
             <Route path='/cast' exact>
               <Voter />
-              <Voters />
+              <User />
               <Post />
               <Footer />
             </Route>
             <Route path='/register' exact>
-              <Register />
+              <NewUser />
             </Route>
             <Route path='/login' exact>
-              <Login />
+              <LoginUser />
             </Route>
-            <Route path='/aprroved-candidate' exact></Route>
+            <Route path='/apply' exact>
+              <NewCandidates />
+            </Route>
+            <Route path='/vote' exact>
+              <AvailablePost />
+            </Route>
+            <Route path='/:userId/profile' exact>
+              <UserProfile />
+            </Route>
+            <Route path='/:UserId/candidate/profile' exact>
+              <CandidatesProfile />
+            </Route>
+            <Route path='/users' exact>
+              <User />
+            </Route>
+            <Route path='/all/candidates' exact>
+              <Candidates />
+            </Route>
             <Redirect to='/' />
           </Switch>
         </main>

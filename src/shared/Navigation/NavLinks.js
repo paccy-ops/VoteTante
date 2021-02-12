@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../images/tante-01.svg';
-import profile from '../../images/profile.svg';
+import profile from '../../images/paco.jpg';
 import { NavLink } from 'react-router-dom';
 import './NavLinks.css';
 
@@ -45,7 +45,7 @@ const NavLinks = () => {
       </li>
       <li>
         {' '}
-        <NavLink to='/profile'>
+        <NavLink to='/u3/users'>
           <img className='image-profile' src={profile} alt='profile' />
         </NavLink>
       </li>

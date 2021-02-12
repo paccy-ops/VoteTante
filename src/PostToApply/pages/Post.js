@@ -2,8 +2,8 @@ import PostList from '../Components/PostList';
 const Post = () => {
   const POST = [
     {
-      id: 'u1',
-
+      id: 'P1',
+      uniqueID: '23',
       title: 'Manager',
       application: 1,
       image: 'https://www.harshwal.com/images/remote-business-manager.jpg',
@@ -12,7 +12,8 @@ const Post = () => {
         'Accomplishes department objectives by managing staff planning and evaluating department activities Pacifique department objectives by managing staff planning and evaluating department activities.',
     },
     {
-      id: 'u1',
+      id: 'P2',
+      uniqueID: '23',
       title: 'President',
       application: 4,
 
@@ -20,10 +21,11 @@ const Post = () => {
         'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=401&q=80',
       discription:
         'Accomplishes department objectives by managing staff planning and evaluating department activities.',
+      creator: 'u1',
     },
     {
-      id: 'u1',
-
+      id: 'P3',
+      uniqueID: '23',
       title: 'Ast.Director',
       application: 3,
       image:
@@ -32,8 +34,8 @@ const Post = () => {
         'Accomplishes department objectives by managing staff planning and evaluating department activities.',
     },
     {
-      id: 'u1',
-
+      id: 'P4',
+      uniqueID: '24',
       title: 'Director',
       application: 10,
       image:

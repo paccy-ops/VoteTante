@@ -11,9 +11,6 @@ import Paper from '@material-ui/core/Paper';
 import { Link } from 'react-router-dom';
 
 const HomeView = () => {
-  const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('xs'));
-  console.log(matches);
   return (
     <Grid
       style={{

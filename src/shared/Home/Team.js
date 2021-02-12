@@ -56,7 +56,7 @@ const Team = () => {
           pacifique <br />
           Twagirayesu
         </h4>
-        <h5>Designer</h5>
+        <h5>Full-Stack Developer</h5>
         <i className='fab fa-facebook-square'></i>
         <i className='fab fa-instagram'></i>
         <i className='fab fa-twitter-square'></i>

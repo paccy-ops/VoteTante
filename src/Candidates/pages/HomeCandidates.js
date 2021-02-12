@@ -1,14 +1,15 @@
-import './Voters.css';
-import cover from '../../images/gunnar.jpg';
-import leftcover from '../../images/ele.svg';
-import { Link } from 'react-router-dom';
+import './HomeViewCandidates.css';
 import home from '../../images/vote2.png';
+import cover from '../../images/gunnar.jpg';
+import leftcover from '../../images/apply.svg';
+import { Link } from 'react-router-dom';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
+
 const HomeView = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up('xs'));
@@ -47,14 +48,14 @@ const HomeView = () => {
                 style={{
                   textDecoration: 'none',
                 }}
-                to='/register'>
-                <Button className='register'>Register Now</Button>
+                to='/apply'>
+                <Button className='register'>Apply Now</Button>
               </Link>
             </p>
           </Typography>
         </Paper>
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid className='right-cover' item xs={12} sm={6}>
         <Paper
           style={{
             height: 'autho',

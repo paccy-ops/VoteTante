@@ -1,7 +1,8 @@
-import PostItem from './PostItem';
-import './PostList.css';
-const PostList = ({ posts }) => {
-  if (posts.length === 0) {
+import React from 'react';
+import CandidatesItem from './CandidatesItems';
+import './CandidatesList.css';
+const CandidatesList = ({ candidates }) => {
+  if (candidates.length === 0) {
     return (
       <div className='apllication-center'>
         <h1>No Application to show </h1>
@@ -12,15 +13,13 @@ const PostList = ({ posts }) => {
     <div className='application-active'>
       <h1>Accapted Application </h1>
       <ul className='application-list'>
-        {posts.map((post, index) => (
-          <PostItem
+        {candidates.map((post, index) => (
+          <CandidatesItem
             key={index}
             id={post.id}
             image={post.image}
-            firstname={post.firstname}
-            lastName={post.lastname}
-            position={post.position}
-            discription={post.discription}
+            name={post.name}
+            approve={post.approve}
           />
         ))}
       </ul>
@@ -28,4 +27,4 @@ const PostList = ({ posts }) => {
   );
 };
 
-export default PostList;
+export default CandidatesList;

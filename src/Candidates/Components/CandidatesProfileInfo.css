@@ -1,0 +1,46 @@
+.profilo-page {
+  background-color: #fff;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+.candidate-approve_button {
+  padding: 10px 20px;
+  margin: 10px 10px;
+  font-size: 18px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.candidate-cancel_button {
+  padding: 10px 20px;
+  margin: 10px 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #444;
+  color: #fcc102;
+}
+.candidate-approve_button:hover {
+  color: green;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.5s;
+  border: 1px solid #fcc102;
+}
+
+.candidate-cancel_button:hover {
+  color: red;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.5s;
+  border: 1px solid green;
+}
+
+@media (max-width: 768px) {
+  .profilo-page {
+    width: 100%;
+  }
+}

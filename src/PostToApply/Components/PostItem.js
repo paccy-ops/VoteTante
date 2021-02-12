@@ -28,10 +28,13 @@ const PostItem = (props) => {
             }
           </h6>
           <p>{props.discription.slice(0, 60)}</p>
-          <Link to='/apply'>
+          <Link to='/'>
             <button>More info</button>
           </Link>
-          <button className='apply'>Apply</button>
+          <Link to='/apply'>
+            {' '}
+            <button className='apply'>Apply</button>
+          </Link>
         </div>
       </Link>
     </div>

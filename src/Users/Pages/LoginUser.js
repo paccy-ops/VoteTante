@@ -1,7 +1,7 @@
+import React from 'react';
+import './LoginUser.css';
 import { Link } from 'react-router-dom';
-// import Avatar from '../../images/tante-01.svg';
-import './Login.css';
-const Login = () => {
+const LoginUser = () => {
   return (
     <div className='body'>
       <div className='loginbox'>
@@ -27,4 +27,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginUser;
