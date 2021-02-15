@@ -10,6 +10,9 @@
   box-shadow: 0 0 3px rgba(9, 49, 29, 0.3);
 }
 
+.menu-icon {
+  display: hidden !important;
+}
 .active {
   display: flex;
   flex-direction: row;
@@ -57,5 +60,8 @@
     font-size: 13px;
     display: flex;
     justify-content: center;
+  }
+  .menu-icon {
+    display: visible !important;
   }
 }

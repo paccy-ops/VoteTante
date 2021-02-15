@@ -6,7 +6,7 @@ const PostItem = (props) => {
   };
   return (
     <div className='posts'>
-      <Link>
+      <Link to='/posta'>
         <div className='discription'>
           <img src={props.image} alt='' />
           <h4 onClick={paco}>{props.title}</h4>

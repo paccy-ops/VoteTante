@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../shared/FormElements/Button';
 import './LoginUser.css';
 import { Link } from 'react-router-dom';
 const LoginUser = () => {
@@ -9,16 +10,15 @@ const LoginUser = () => {
         <form>
           <p>Last Name</p>
 
-          <input type='text' name='' placeholder='Last Name' />
+          <input type='text' placeholder='Last Name' />
 
           <p>ID Number</p>
 
-          <input type='text' name='' placeholder='ID Number' />
+          <input type='text' placeholder='ID Number' />
 
-          <input type='submit' name='' value='Login' />
+          <Button onClick={(e) => e.preventDefault()}>Login</Button>
 
           <Link to='/lost'>Lost your password?</Link>
-          <br />
 
           <Link to='/register'>Don't have an account?</Link>
         </form>

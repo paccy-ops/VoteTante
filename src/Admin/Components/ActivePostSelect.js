@@ -1,9 +1,12 @@
 import './ActivePostSelect.css';
+import Menu from '@material-ui/icons/MenuOpenOutlined';
+
 const ActivePostSelect = () => {
   return (
-    <div class='ditails'>
-      <div class='active'>
+    <div className='ditails'>
+      <div className='active'>
         <h3>
+          <Menu className='menu-icon' />
           Active Posts <span>(0)</span>
         </h3>
         <select className='post-active'>

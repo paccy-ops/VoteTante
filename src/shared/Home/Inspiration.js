@@ -1,5 +1,5 @@
-import './Insipiration.css';
-const Insipiration = () => {
+import './Inspiration.css';
+const Inspiration = () => {
   return (
     <div className='inspiration'>
       <p>
@@ -11,4 +11,4 @@ const Insipiration = () => {
   );
 };
 
-export default Insipiration;
+export default Inspiration;

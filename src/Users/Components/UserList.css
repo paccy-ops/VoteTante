@@ -2,6 +2,25 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 10px;
+  width: 100%;
+}
+
+.users-page-button {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: darkgreen;
+  color: #fff;
+  border: none;
+  margin-left: 80%;
+}
+.users-page-button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: darkgreen;
+  border: 1px solid green;
+  transition: 0.5s;
 }

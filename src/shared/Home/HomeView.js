@@ -1,8 +1,6 @@
 import './HomeView.css';
 import home from '../../images/vote2.png';
 import cover from '../../images/gunnar.jpg';
-import { useTheme } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import leftcover from '../../images/account.svg';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
@@ -36,11 +34,10 @@ const HomeView = () => {
                 Why you should use <br /> VoteTante?
               </strong>{' '}
               <br />
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur
-              et. Maecenas sed diam eget risus varius blandit sit amet non
-              magna. Aenean lacinia bibendum nulla sed consectetur. Cras mattis
-              consectetur purus sit amet fermentum. Donec ullamcorper nulla non
-              metus auctor fringilla. Cras mattis
+              Enables voters to cast their vote privately and easily from any
+              location and on any device with Internet access (PC, tablet,
+              smartphone, etc.), ensuring maximum election engagement by
+              enabling remote and disabled voters to participate on equal terms.
               <Link
                 style={{
                   textDecoration: 'none',

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../images/tante-01.svg';
-import profile from '../../images/paco.jpg';
+import profile from '../../images/profile.svg';
 import { NavLink } from 'react-router-dom';
 import './NavLinks.css';
 

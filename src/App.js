@@ -17,8 +17,9 @@ import HomeView from './shared/Home/HomeView';
 import HomeCandidates from './Candidates/pages/HomeCandidates';
 import Voter from './Voters/pages/Voters';
 import HowItwork from './shared/Home/HowItwork';
-import Insipiration from './shared/Home/Insipiration';
+import Inspiration from './shared/Home/Inspiration';
 import Team from './shared/Home/Team';
+import UpdatePost from './PostToApply/pages/UpdatePost';
 // import Voters from './Voters/pages/Voters';
 import AvailablePost from './Voters/pages/AvailablePost';
 import NewUser from './Users/Pages/NewUser';
@@ -59,7 +60,7 @@ function App() {
               <HomeView />
               <HowItwork />
               <Post />
-              <Insipiration />
+              <Inspiration />
               <Team />
               <Footer />
             </Route>
@@ -74,7 +75,6 @@ function App() {
             </Route>
             <Route path='/cast' exact>
               <Voter />
-              <User />
               <Post />
               <Footer />
             </Route>
@@ -102,6 +102,10 @@ function App() {
             <Route path='/all/candidates' exact>
               <Candidates />
             </Route>
+            <Route path='/post/:postId'>
+              <UpdatePost />
+            </Route>
+
             <Redirect to='/' />
           </Switch>
         </main>

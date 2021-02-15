@@ -18,7 +18,7 @@ h1 {
   width: 25%;
   padding: 60px 20px;
   /* height: 100%; */
-  margin-left: 30%;
+  margin-left: 35%;
   margin-top: 5%;
   background-color: #f7f7f7;
   color: #444;
@@ -48,30 +48,16 @@ input[type='password'] {
   color: #444;
   font-size: 16px;
 }
-.loginbox input[type='submit'] {
-  border: none;
-  outline: none;
-  height: 40px;
-  background: darkgreen;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 20px;
-  font-size: 20px;
-}
-.loginbox input[type='submit']:hover {
-  cursor: pointer;
-  background: #fff;
-  color: darkgreen;
-}
+
 .loginbox a {
   text-decoration: none;
   font-size: 15px;
-  line-height: 20px;
+  display: block;
   font-family: 'Roboto';
   font-weight: 900;
   color: darkgreen;
   font-weight: 300;
-  margin: 10px 0;
+  margin: 10px;
 }
 .loginbox a:hover {
   color: #444;

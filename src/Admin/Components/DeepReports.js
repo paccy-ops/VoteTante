@@ -5,8 +5,8 @@ const DeepReports = () => {
       <thead>
         <tr>
           <th>All Users </th>
-          <th>Casted </th>
-          <th>UnCasted </th>
+          <th>Voted </th>
+          <th>UnVoted </th>
         </tr>
       </thead>
       <tbody>

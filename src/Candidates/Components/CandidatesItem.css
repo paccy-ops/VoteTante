@@ -20,13 +20,13 @@
   font-size: 30px;
 }
 
-.Accepted-application a img {
+.Accepted-application img {
   width: 100px;
   height: 100px;
   margin-top: 30px;
   border-radius: 100%;
 }
-.Accepted-application a {
+.Accepted-application {
   list-style: none;
   text-align: center;
   text-decoration: none;
@@ -79,4 +79,8 @@
   background-color: #fff;
   transition: 0.3s;
   font-weight: 900;
+}
+.map-container {
+  height: 150rem;
+  width: 100%;
 }

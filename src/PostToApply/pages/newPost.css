@@ -1,0 +1,15 @@
+.form-newPost {
+  background-color: rgb(79, 95, 95);
+  color: #fff;
+  padding: 10px;
+}
+.new-post > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.new-post input,
+.new-post label,
+.new-post textarea {
+  margin-left: 40%;
+}
